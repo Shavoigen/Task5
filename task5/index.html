@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="out_con">
+        <article>
+            <!--<div id="outer_border"> &lt;!&ndash;outer div&ndash;&gt;-->
+            <div class="side three"></div> <!--right div - empty-->
+            <div id="mid_border" class="three"> <!--center div wrapping 3 divs-->
+                <div id="desc"> <!--div 1-->
+                    <section>
+                        <h1>שלום</h1>
+                    </section>
+                </div>
+                <div id="inner_mid">
+                    <div class="inner_border"> <!--div 2-->
+                        <section>
+                            <div id="schwam">
+                                <h1>schwam, dow, two n haif</h1>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="inner_border" id="form"> <!--div 3-->
+                        <section>
+                            <form>
+                                <h1>הרשם עכשיו!</h1>
+                                <input type="hidden" id="myEmail" name="name" value="shavoigen@gmail.com">
+
+                                <label for="FirstName">
+                                    <p>שם פרטי:</p>
+                                    <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" required />
+                                </label>
+
+                                <label for="msg">
+                                    <p>הודעה כאן:</p>
+                                    <textarea id="msg" placeholder="..." style="overflow:hidden"></textarea>
+                                </label>
+                                <label for="mail">
+                                    <p>דואר אלקטרוני:</p>
+                                    <input type="email" placeholder="מייל..." id="mail" />
+                                </label>
+
+                                <label for="phone">
+                                    <p>מספר טלפון:</p>
+                                    <input type="tel" placeholder="מספר טלפון" id="phone" />
+                                </label>
+
+                                <input type="submit" id="Send" value="שלח">
+
+                                <div id="feedback"></div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="side three"></div>  <!--left div - empty-->
+            <!--</div>-->
+        </article>
+    </div>
+</body>
+</html>

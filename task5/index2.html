@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="דף נחיתה לפקולטת טכנולוגיות למידה ב H.I.T" />
+    <meta name="keywords" content="טלמ, טכנולוכיות למידה, עיצוב, ממשק, משתמש, H.I.T,דף נחיתה" />
+    <meta name="author" content="ליאור אביאל" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle2.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="outer">
+        <div id="main">
+            <div class="fringe"></div>
+            <div class="in_main" id="top">
+                <h1>טכנולוגיה</h1>
+                <p>פיתוח לומדות ואתרים במגוון טכנולוגיות ושיטות!</p>
+            </div>
+            <div class="in_between"></div>
+            <div class="in_main" id="mid">
+                <h1>פיתוח הדרכה</h1>
+                <p>למד את סודות פיתוח ההדרכה ואת מה שעומד מאחוריה!</p>
+            </div>
+            <div class="in_between"></div>
+            <div class="in_main" id="bot">
+                <h1>עיצוב</h1>
+                <p>תכנון ועיצוב ממשקים</p>
+            </div>
+
+            <div class="fringe"></div>
+        </div>
+        <div id="left">
+            <div class="left_fringe"></div>
+
+            <div id="left_top_mid">
+                <h1>למד מיקצוע עם מסלולי התפתחות מגוונים!</h1>
+            </div>
+            <div id="left_mid">
+                <div id="form">
+                    <form>
+                        <h1>הרשם עכשיו!</h1>
+                        <input type="hidden" id="myEmail" name="name" value="shavoigen@gmail.com">
+
+                        <label for="FirstName">
+                            שם פרטי:
+                            <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" required />
+                        </label>
+
+                        <label for="msg">
+                            הודעה כאן:
+                            <textarea id="msg" placeholder="..." style="overflow:hidden"></textarea>
+                        </label>
+                        <label for="mail">
+                            דואר אלקטרוני:
+                            <input type="text" name="mail" placeholder="מייל..." id="mail" />
+                        </label>
+
+                        <label for="phone">
+                            מספר טלפון:
+                            <input type="text" name="phone" placeholder="מספר טלפון" id="phone" />
+                        </label>
+
+                        <input type="submit" id="Send" value="שלח">
+
+                        <div id="feedback"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="left_fringe">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
